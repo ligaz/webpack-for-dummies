@@ -8,7 +8,7 @@
     "react-dom": "15.4.0"
   },
   "scripts": {
-    "start": "webpack --config build/webpack.server.ts && node dist/server"
+    "start": "tsc -p ./server && node dist/server/server"
   },
   "devDependencies": {
     "@types/express": "4.0.34",
